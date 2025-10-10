@@ -45,6 +45,21 @@
               </article>
             {/snippet}
           </Accordion.Item>
+
+          <Accordion.Item value="Brennen_Gabriel">
+            <!-- Control -->
+            {#snippet control()}Brennen Gabriel{/snippet}
+            <!-- Panel -->
+            {#snippet panel()}
+              <article class="space-y-2 p-4">
+                <embed
+                  src="/labs/lab1_roguelike_algebra_Brennen_version_1.pdf"
+                  type="application/pdf"
+                  class="h-[calc(100vh-25rem)] w-full"
+                />
+              </article>
+            {/snippet}
+          </Accordion.Item>
           <!-- END REGION TO COPY -->
         </Accordion>
       </Tabs.Panel>
