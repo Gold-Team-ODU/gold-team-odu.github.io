@@ -28,7 +28,7 @@
           <embed
             src="/presentations/feasibility.pdf"
             type="application/pdf"
-            class="h-[calc(100vh-25rem)]"
+            class="h-[calc(100vh-25rem)] w-full"
           />
         </article>
       </Tabs.Panel>
@@ -37,7 +37,7 @@
           <embed
             src="/presentations/formal_design.pdf"
             type="application/pdf"
-            class="h-[calc(100vh-25rem)]"
+            class="h-[calc(100vh-25rem)] w-full"
           />
         </article>
       </Tabs.Panel>
