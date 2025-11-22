@@ -1,7 +1,7 @@
 <script lang="ts">
   import { Accordion, Tabs } from "@skeletonlabs/skeleton-svelte";
 
-  let group = $state("lab_1_outline");
+  let group = $state("lab1");
   let value = $state([""]);
 </script>
 
@@ -10,10 +10,11 @@
 >
   <Tabs value={group} onValueChange={(e) => (group = e.value)} fluid>
     {#snippet list()}
-      <Tabs.Control value="lab_1_outline">Lab 1</Tabs.Control>
+      <Tabs.Control value="lab1">Lab 1</Tabs.Control>
+      <Tabs.Control value="lab34">Labs 3 & 4</Tabs.Control>
     {/snippet}
     {#snippet content()}
-      <Tabs.Panel value="lab_1_outline">
+      <Tabs.Panel value="lab1">
         <Accordion {value} onValueChange={(e) => (value = e.value)} collapsible>
           <Accordion.Item value="outline">
             <!-- Control -->
@@ -93,6 +94,16 @@
 
           <!-- END REGION TO COPY -->
         </Accordion>
+      </Tabs.Panel>
+      <Tabs.Panel value="lab34">
+        <article class="space-y-2 p-4">
+          Link to User Manual:
+          <a
+            href="https://github.com/gold-team-odu/gold-team-odu.github.io/wiki"
+            class="underline"
+            >https://github.com/gold-team-odu/gold-team-odu.github.io/wiki</a
+          >
+        </article>
       </Tabs.Panel>
     {/snippet}
   </Tabs>
