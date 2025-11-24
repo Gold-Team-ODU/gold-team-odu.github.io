@@ -11,7 +11,6 @@
   <Tabs value={group} onValueChange={(e) => (group = e.value)} fluid>
     {#snippet list()}
       <Tabs.Control value="lab1">Lab 1</Tabs.Control>
-      <Tabs.Control value="lab2>Lab 2</Tabs.Control>
       <Tabs.Control value="lab34">Labs 3 & 4</Tabs.Control>
     {/snippet}
     {#snippet content()}
@@ -96,32 +95,6 @@
           <!-- END REGION TO COPY -->
         </Accordion>
       </Tabs.Panel>
-
-      <!-- Lab 2 Panel -->
-      <Tabs.Panel value="lab1">
-        <Accordion {value} onValueChange={(e) => (value = e.value)} collapsible>
-          
-          <!-- COPY THIS FOR EACH MEMBER. (Change value to be unique and use names accordingly)-->
-
-          <Accordion.Item value="Brennen_Gabriel">
-            <!-- Control -->
-            {#snippet control()}Brennen Gabriel{/snippet}
-            <!-- Panel -->
-            {#snippet panel()}
-              <article class="space-y-2 p-4">
-                <embed
-                  src="static/labs/Lab2_rogulelike_algebra_Brennen_version_2.pdf"
-                  type="application/pdf"
-                  class="h-[calc(100vh-25rem)] w-full"
-                />
-              </article>
-            {/snippet}
-          </Accordion.Item>
-
-          <!-- END REGION TO COPY -->
-        </Accordion>
-      </Tabs.Panel>
-          
       <Tabs.Panel value="lab34">
         <article class="space-y-2 p-4">
           Link to User Manual:
