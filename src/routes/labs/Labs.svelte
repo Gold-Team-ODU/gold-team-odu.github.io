@@ -118,6 +118,22 @@
           </Accordion.Item>
 
           <!-- END REGION TO COPY -->
+
+          <Accordion.Item value="jillian_cequeria">
+            <!-- Control -->
+            {#snippet control()}Jillian Cequeria{/snippet}
+            <!-- Panel -->
+            {#snippet panel()}
+              <article class="space-y-2 p-4">
+                <embed
+                  src="labs/lab2_roguelike_algebra_cequeria_version_2.pdf"
+                  type="application/pdf"
+                  class="h-[calc(100vh-25rem)] w-full"
+                />
+              </article>
+            {/snippet}
+          </Accordion.Item>
+
         </Accordion>
       </Tabs.Panel>
 
