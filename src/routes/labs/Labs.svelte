@@ -11,6 +11,7 @@
   <Tabs value={group} onValueChange={(e) => (group = e.value)} fluid>
     {#snippet list()}
       <Tabs.Control value="lab1">Lab 1</Tabs.Control>
+      <Tabs.Control value ="lab2>Lab 2</Tabs.Control>
       <Tabs.Control value="lab34">Labs 3 & 4</Tabs.Control>
     {/snippet}
     {#snippet content()}
