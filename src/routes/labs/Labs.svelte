@@ -115,6 +115,23 @@
       <!--Lab 2 Panel-->
       <Tabs.Panel value="lab2">
         <Accordion {value} onValueChange={(e) => (value = e.value)} collapsible>
+
+          <Accordion.Item value="Gold Team Lab 2">
+            <!-- Control -->
+            {#snippet control()}Gold Team Lab 2{/snippet}
+            <!-- Panel -->
+            {#snippet panel()}
+              <article class="space-y-2 p-4">
+                <iframe
+                  src="/labs/Gold_Team_Lab 2_V2.pdf"
+                  title="Gold Team Lab"
+                  class="container h-[calc(100vh-25rem)]"
+                  allowfullscreen
+                ></iframe>
+              </article>
+            {/snippet}
+          </Accordion.Item>
+          
           <!-- COPY THIS FOR EACH MEMBER. (Change value to be unique and use names accordingly)-->
           <Accordion.Item value="gabriel_lugo">
             <!-- Control -->
