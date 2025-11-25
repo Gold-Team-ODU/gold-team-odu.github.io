@@ -28,7 +28,7 @@
       <div class="relative">
         <!-- Shadow -->
         <div
-          class="absolute -inset-0 bg-surface-950-50 opacity-75 blur-[30px] rounded-3xl"
+          class="absolute -inset-0.5 bg-surface-500 opacity-75 blur-[0px] rounded-3xl"
         ></div>
         <!-- Panel -->
         <div class="min-h-screen relative bg-surface-100-900 rounded-3xl">
