@@ -116,6 +116,20 @@
       <Tabs.Panel value="lab2">
         <Accordion {value} onValueChange={(e) => (value = e.value)} collapsible>
           <!-- COPY THIS FOR EACH MEMBER. (Change value to be unique and use names accordingly)-->
+          <Accordion.Item value="gabriel_lugo">
+            <!-- Control -->
+            {#snippet control()}Gabriel Lugo{/snippet}
+            <!-- Panel -->
+            {#snippet panel()}
+              <article class="space-y-2 p-4">
+                <embed
+                  src="/labs/lab2_roguelike_algebra_lugo_version_2.pdf"
+                  type="application/pdf"
+                  class="h-[calc(100vh-25rem)] w-full"
+                />
+              </article>
+            {/snippet}
+          </Accordion.Item>
 
           <Accordion.Item value="Brennen_Gabriel">
             <!-- Control -->
