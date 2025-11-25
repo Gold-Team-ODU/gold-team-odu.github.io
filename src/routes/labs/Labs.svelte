@@ -93,6 +93,21 @@
             {/snippet}
           </Accordion.Item>
 
+          <Accordion.Item value="bryan_baker">
+            <!-- Control -->
+            {#snippet control()}Bryan Baker{/snippet}
+            <!-- Panel -->
+            {#snippet panel()}
+              <article class="space-y-2 p-4">
+                <embed
+                  src="/labs/lab1_roguelike_algebra_Bryan_version_1.pdf"
+                  type="application/pdf"
+                  class="h-[calc(100vh-25rem)] w-full"
+                />
+              </article>
+            {/snippet}
+          </Accordion.Item>
+
           <!-- END REGION TO COPY -->
         </Accordion>
       </Tabs.Panel>
@@ -117,8 +132,6 @@
             {/snippet}
           </Accordion.Item>
 
-          <!-- END REGION TO COPY -->
-
           <Accordion.Item value="jillian_cequeria">
             <!-- Control -->
             {#snippet control()}Jillian Cequeria{/snippet}
@@ -133,6 +146,23 @@
               </article>
             {/snippet}
           </Accordion.Item>
+
+          <Accordion.Item value="bryan_baker">
+            <!-- Control -->
+            {#snippet control()}Bryan Baker{/snippet}
+            <!-- Panel -->
+            {#snippet panel()}
+              <article class="space-y-2 p-4">
+                <embed
+                  src="/labs/lab2_roguelike_algebra_Bryan_version_1.pdf"
+                  type="application/pdf"
+                  class="h-[calc(100vh-25rem)] w-full"
+                />
+              </article>
+            {/snippet}
+          </Accordion.Item>
+
+          <!-- END REGION TO COPY -->
 
         </Accordion>
       </Tabs.Panel>
