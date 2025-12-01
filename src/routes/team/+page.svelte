@@ -8,14 +8,14 @@
   <PageTitle page={"Team"} />
 </svelte:head>
 
-<div>
-  <div class="grid grid-cols-[auto_1fr] p-2">
+<div class="mx-auto">
+  <div class="container grid grid-cols-[auto_1fr] p-2">
     <header
       class="h2 px-5 [writing-mode:vertical-lr] rotate-180 place-self-start"
     >
       Meet the Team
     </header>
-    <article class="text-justify self-center pl-5 text-base xl:text-lg">
+    <article class="text-justify pl-5 text-base xl:text-lg">
       <div class="grid grid-cols-1 md:grid-cols-2 gap-2">
         <div
           class="card preset-filled-surface-50-950 border-surface-200-800 divide-surface-200-800 block divide-y divide- overflow-hidden"

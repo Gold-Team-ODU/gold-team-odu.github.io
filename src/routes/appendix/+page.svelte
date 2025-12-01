@@ -18,7 +18,7 @@
     >
       Extra Resources
     </header>
-    <article class="text-base pl-5 xl:text-lg">
+    <article class="text-justify pl-5 text-base xl:text-lg">
       <div
         class="card preset-filled-surface-50-950 border-surface-200-800 divide-surface-200-800 block divide-y overflow-hidden"
       >

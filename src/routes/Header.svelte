@@ -24,13 +24,15 @@
 </script>
 
 <header
-  class="sticky top-0 z-50 w-full {isAtTop ? 'rounded-3xl' : 'rounded-b-3xl'}"
+  class="sticky top-0 z-50 w-full {isAtTop
+    ? 'rounded-3xl'
+    : 'rounded-b-3xl rounded-t-none'}"
 >
   <div class="relative">
     <div
       class="absolute -inset-0 preset-glass-surface {isAtTop
         ? 'rounded-3xl'
-        : 'rounded-b-3xl'}"
+        : 'rounded-b-3xl rounded-t-none'}"
     ></div>
     <div class="relative grid grid-cols-[1fr_auto] gap-2 p-5">
       <div class="grid grid-cols-[auto_auto_1fr] items-center gap-2">

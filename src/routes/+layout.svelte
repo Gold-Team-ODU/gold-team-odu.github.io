@@ -15,27 +15,28 @@
   });
 
   let { children } = $props();
+  let vertical_height = "min-h-[calc(100vh-(var(--spacing)*5.0))]";
 </script>
 
-<div class="container mx-auto h-screen w-full flex justify-center">
+<div class="container mx-auto my-2.5 h-[calc(100vh-(var(--spacing)*5.0)] w-full flex justify-center">
   {#if ready}
     <!-- Fade in content pane -->
     <div
-      class="w-full min-h-screen max-w-xl md:max-w-4xl 2xl:max-w-7xl place-content-center"
+      class="w-full {vertical_height} max-w-xl md:max-w-4xl 2xl:max-w-7xl place-content-center"
       in:fade={{ duration: 500, delay: 100 }}
     >
       <!-- Primary content -->
-      <div class="relative place-content-center mx-auto">
+      <div class="relative">
         <!-- Shadow -->
         <div
           class="absolute -inset-0.5 bg-surface-500 opacity-75 blur-[0px] rounded-3xl"
         ></div>
         <!-- Panel -->
         <div
-          class="min-h-[calc(100vh-(var(--spacing)*1.0))] relative bg-surface-100-900 rounded-3xl"
+          class="{vertical_height} relative bg-surface-100-900 rounded-3xl"
         >
           <div
-            class="min-h-[calc(100vh-(var(--spacing)*1.0))] grid grid-rows-[auto_1fr_auto] gap-5"
+            class="{vertical_height} grid grid-rows-[auto_1fr_auto] gap-5"
           >
             <Header />
 
