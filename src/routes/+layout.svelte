@@ -21,18 +21,22 @@
   {#if ready}
     <!-- Fade in content pane -->
     <div
-      class="w-full min-h-screen max-w-xl md:max-w-4xl 2xl:max-w-7xl"
+      class="w-full min-h-screen max-w-xl md:max-w-4xl 2xl:max-w-7xl place-content-center"
       in:fade={{ duration: 500, delay: 100 }}
     >
       <!-- Primary content -->
-      <div class="relative">
+      <div class="relative place-content-center mx-auto">
         <!-- Shadow -->
         <div
           class="absolute -inset-0.5 bg-surface-500 opacity-75 blur-[0px] rounded-3xl"
         ></div>
         <!-- Panel -->
-        <div class="min-h-screen relative bg-surface-100-900 rounded-3xl">
-          <div class="min-h-screen grid grid-rows-[auto_1fr_auto] gap-5">
+        <div
+          class="min-h-[calc(100vh-(var(--spacing)*1.0))] relative bg-surface-100-900 rounded-3xl"
+        >
+          <div
+            class="min-h-[calc(100vh-(var(--spacing)*1.0))] grid grid-rows-[auto_1fr_auto] gap-5"
+          >
             <Header />
 
             <main class="px-5 h-full">
