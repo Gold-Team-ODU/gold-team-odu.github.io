@@ -11,7 +11,7 @@
   <Tabs value={group} onValueChange={(e) => (group = e.value)} fluid>
     {#snippet list()}
       <Tabs.Control value="lab1">Lab 1</Tabs.Control>
-       <Tabs.Control value="lab2">Lab 2</Tabs.Control>
+      <Tabs.Control value="lab2">Lab 2</Tabs.Control>
       <Tabs.Control value="lab34">Labs 3 & 4</Tabs.Control>
     {/snippet}
     {#snippet content()}
@@ -115,7 +115,6 @@
       <!--Lab 2 Panel-->
       <Tabs.Panel value="lab2">
         <Accordion {value} onValueChange={(e) => (value = e.value)} collapsible>
-
           <Accordion.Item value="Gold Team Lab 2">
             <!-- Control -->
             {#snippet control()}Gold Team Lab 2{/snippet}
@@ -131,7 +130,7 @@
               </article>
             {/snippet}
           </Accordion.Item>
-          
+
           <!-- COPY THIS FOR EACH MEMBER. (Change value to be unique and use names accordingly)-->
           <Accordion.Item value="gabriel_lugo">
             <!-- Control -->
@@ -194,18 +193,27 @@
           </Accordion.Item>
 
           <!-- END REGION TO COPY -->
-
         </Accordion>
       </Tabs.Panel>
 
       <Tabs.Panel value="lab34">
-        <article class="space-y-2 p-4">
-          Link to User Manual: <br />
-          <a
-            href="https://github.com/Gold-Team-ODU/gold-team-odu.github.io/wiki/User-Manual"
-            class="underline"
-            >https://github.com/Gold-Team-ODU/gold-team-odu.github.io/wiki/User-Manual</a
-          >
+        <article class="space-y-2 p-4 place-items-center">
+          <div>
+            <a
+              href="https://github.com/Gold-Team-ODU/gold-team-odu.github.io/wiki"
+            >
+              <button type="button" class="btn btn-lg preset-filled">
+                Wiki
+              </button>
+            </a>
+            <a
+              href="https://github.com/Gold-Team-ODU/gold-team-odu.github.io/wiki/User-Manual"
+            >
+              <button type="button" class="btn btn-lg preset-filled">
+                User Manual
+              </button>
+            </a>
+          </div>
         </article>
       </Tabs.Panel>
     {/snippet}
