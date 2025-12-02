@@ -200,11 +200,11 @@
 
       <Tabs.Panel value="lab34">
         <article class="space-y-2 p-4">
-          Link to User Manual:
+          Link to User Manual: <br />
           <a
-            href="https://github.com/gold-team-odu/gold-team-odu.github.io/wiki"
+            href="https://github.com/Gold-Team-ODU/gold-team-odu.github.io/wiki/User-Manual"
             class="underline"
-            >https://github.com/gold-team-odu/gold-team-odu.github.io/wiki</a
+            >https://github.com/Gold-Team-ODU/gold-team-odu.github.io/wiki/User-Manual</a
           >
         </article>
       </Tabs.Panel>
